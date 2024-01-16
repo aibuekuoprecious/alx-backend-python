@@ -11,6 +11,6 @@ async_generator = __import__('0-async_generator').async_generator
 
 async def async_comprehension() -> List[float]:
     """ Coroutine using an async comprehension """
-    random_num = [i async for i in async_generator()]
-    return random_num
+    n = [i async for i in async_generator()]
+    return n
 
