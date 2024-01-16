@@ -8,9 +8,7 @@ from typing import Generator
 
 
 async def async_generator() -> Generator[float, None, None]:
-    """ 
-    Asynchronously generates after a delay of 1 second.
-    """
+    """ Asynchronously generates after a delay of 1 second """
     for _ in range(10):
         await sleep(1)
         yield uniform(0, 10)
