@@ -18,7 +18,7 @@ def measure_time(n: int, max_delay: int) -> float:
 
     Returns:
     float: Average time taken for execution of wait_n.
-    """    
+    """
     start_time = time()
 
     run(wait_n(n, max_delay))

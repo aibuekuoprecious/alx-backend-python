@@ -13,4 +13,3 @@ async def async_comprehension() -> List[float]:
     """ Coroutine using an async comprehension """
     random_num = [i async for i in async_generator()]
     return random_num
-
